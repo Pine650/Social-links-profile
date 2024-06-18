@@ -1,0 +1,70 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: #3e52a3; }
+
+:root {
+    font-family: "Inter";
+    background-color: #141414;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 300px;
+    background-color: #1f1f1f;
+    margin: 50px auto;
+    border-radius: 10px;
+}
+
+#avatar {
+    height: 60px;
+    width: 60px;
+    margin: 50px auto;
+    border-radius: 160px;
+}
+
+#name {
+    color: #ffffff;
+    position: relative;
+    margin: -35px auto;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#address {
+    color: hsl(75, 94%, 57%);
+    margin: 40px auto;
+    font-size: 12px;
+}
+
+#description {
+    color: #ffffff;
+    font-size: 13px;
+    margin: -25px auto;
+}
+
+#button {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+#btn {
+    border: none;
+    background-color: hsl(0, 0%, 20%);
+    color: #ffffff;
+    border-radius: 10px;
+    margin: 5px auto;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 12.8px;
+    width: 252px;
+    height: 40px;
+    font-size: 12px;
+}
+
+#btn:hover {
+    background-color: hsl(75, 94%, 57%);
+    color:#000000;
+}
+
